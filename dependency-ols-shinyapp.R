@@ -5,6 +5,9 @@ if(!require("RColorBrewer")){install.packages("RColorBrewer")}
 if(!require("Hmisc")){install.packages("Hmisc")}
 if(!require("ggplot2")){install.packages("ggplot2")}
 if(!require("reshape2")){install.packages("reshape2")}
+if(!require("jtools")){install.packages("jtools")}
+if(!require("DT")){install.packages("DT")}
+
 
 library(shiny)
 library(pastecs)
@@ -12,3 +15,5 @@ library(RColorBrewer)
 library(Hmisc)
 library(ggplot2)
 library(reshape2)
+library(DT)
+library(jtools)
